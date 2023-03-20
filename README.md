@@ -5,3 +5,35 @@
 </p>
 
 # go-stury-series
+
+# How to create a project
+
+```bash
+$ mkdir <project-name>
+$ cd <project-name>
+$ touch main.go
+```
+
+`main.go` file
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("hello world")
+}
+```
+
+```bash
+$ go run main.go
+hello world
+
+$ go build main.go
+$ ls
+main main.go
+
+$ ./main
+hello world
+```
